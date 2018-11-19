@@ -5,13 +5,27 @@
 <title>Documento sin título</title>
 </head>
 <?php 
-	$asignaturas = ["Matematicas"=>8,"Lengua"=>6,"Filosofia"=>18,"Diseño"=>3,"PHP"=>10,"Wordpress"=>3];
-	echo $asignaturas["Matematicas"];
-	echo $asignaturas["Lengua"];
-	echo $asignaturas["Filosofia"];
-	echo $asignaturas["Diseño"];
-	echo $asignaturas["PHP"];
-	echo $asignaturas["Wordpress"];
+	$mascota[0] = ["Nombre"=>"Lazy","Peso"=>"20kg","Color"=>"Negro","Edad"=>"5 años","Raza"=>"Labrador"];
+	$mascota[1] = ["Nombre"=>"Rodrigo","Peso"=>"18kg","Color"=>"Blanco","Edad"=>"4 años","Raza"=>"Bull Dog"];
+	$mascota[2] = ["Nombre"=>"Perete","Peso"=>"19kg","Color"=>"Marrón", "Edad"=>"3 años","Raza"=>"Terrier"];
+	echo $mascota[0]["Nombre"];
+	echo $mascota[0]["Peso"];
+	echo $mascota[0]["Color"];
+	echo $mascota[0]["Edad"];
+	echo $mascota[0]["Raza"];
+	echo "<br>";
+	echo $mascota[1]["Nombre"];
+	echo $mascota[1]["Peso"];
+	echo $mascota[1]["Color"];
+	echo $mascota[1]["Edad"];
+	echo $mascota[1]["Raza"];
+	echo "<br>";
+	echo $mascota[2]["Nombre"];
+	echo $mascota[2]["Peso"];
+	echo $mascota[2]["Color"];
+	echo $mascota[2]["Edad"];
+	echo $mascota[2]["Raza"];
+	
 	?>
 <body>
 </body>
