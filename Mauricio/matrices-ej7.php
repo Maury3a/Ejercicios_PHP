@@ -43,7 +43,7 @@
 	echo "<td align='center'>".$alumno["Manolo"]["Filosofia"]."</td>";
 	echo "<td align='center'>".$alumno["Manolo"]["Diseño"]."</td>";
 	echo "<td align='center'>".(($alumno["Manolo"]["Matematicas"]+$alumno["Manolo"]["Lengua"]+$alumno["Manolo"]["Filosofia"]+$alumno["Manolo"]["Diseño"]+$alumno["Manolo"]["PHP"])/5)."</td></tr><tr>";
-	echo"<table>";
+	echo"</table>";
 	
 	
 	
