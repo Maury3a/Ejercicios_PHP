@@ -1,0 +1,98 @@
+Microsoft Windows [Versión 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Reservados todos los derechos.
+
+D:\ej1GitHub>git init
+Initialized empty Git repository in D:/ej1GitHub/.git/
+
+D:\ej1GitHub>git remote add origin https://github.com/Maury3a/ej1GitHub.git
+
+D:\ej1GitHub>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        prueba1.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\ej1GitHub>git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/Maury3a/ej1GitHub.git'
+
+D:\ej1GitHub>git push add.
+error: src refspec refs/heads/master does not match any.
+error: failed to push some refs to 'add.'
+
+D:\ej1GitHub>git add .
+
+D:\ej1GitHub>git add .
+
+D:\ej1GitHub>git add .
+
+D:\ej1GitHub>git diff
+
+D:\ej1GitHub>git commit -m "primera subida"
+[master (root-commit) f9c370e] primera subida
+ 2 files changed, 13 insertions(+)
+ create mode 100644 prueba1.css
+ create mode 100644 prueba1.html
+
+D:\ej1GitHub>git diff
+
+D:\ej1GitHub>checkout -b prueba
+"checkout" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\ej1GitHub>git push origin master
+fatal: AggregateException encountered.
+   Se han producido uno o varios errores.
+Username for 'https://github.com': maury3a
+Password for 'https://maury3a@github.com':
+Counting objects: 4, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 467 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/Maury3a/ej1GitHub.git
+ * [new branch]      master -> master
+
+D:\ej1GitHub>git checkout -b prueba
+Switched to a new branch 'prueba'
+
+D:\ej1GitHub>git add .
+
+D:\ej1GitHub>git diff
+
+D:\ej1GitHub>checkout prueba
+"checkout" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\ej1GitHub>git checkout prueba
+Already on 'prueba'
+M       prueba1.css
+
+D:\ej1GitHub>git commit -m "cambiar css"
+[prueba f515e8c] cambiar css
+ 1 file changed, 3 insertions(+)
+
+D:\ej1GitHub>git push origin prueba
+fatal: AggregateException encountered.
+   Se han producido uno o varios errores.
+Username for 'https://github.com': maury3a
+Password for 'https://maury3a@github.com':
+Counting objects: 3, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 292 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'prueba' on GitHub by visiting:
+remote:      https://github.com/Maury3a/ej1GitHub/pull/new/prueba
+remote:
+To https://github.com/Maury3a/ej1GitHub.git
+ * [new branch]      prueba -> prueba
+
+D:\ej1GitHub>
