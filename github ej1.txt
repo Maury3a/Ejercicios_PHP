@@ -1,7 +1,7 @@
 
 1. Crear repositorio online en >GItHub
 2 Crear una carpeta nueva en local
-3 Iniciar un repositorio vacío en local y sincronizarlo al nuevo de Github
+3 Iniciar un repositorio vacÃ­o en local y sincronizarlo al nuevo de Github
 4 Crear 2 archivos, html y css
 5 Subir archivos a la rama master
 6 Crear una nueva rama en local 
@@ -17,12 +17,13 @@ Modificar el estilo css
 
 
 
+Lo primero es git config --global user.name "maury3a"
+Despues git config --global user.email "mauri3a@gmail.com"
 
 
 
 
-
-Microsoft Windows [Versión 6.1.7601]
+Microsoft Windows [VersiÃ³n 6.1.7601]
 Copyright (c) 2009 Microsoft Corporation. Reservados todos los derechos.
 
 D:\ej1GitHub>git init
