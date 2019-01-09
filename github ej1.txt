@@ -20,8 +20,8 @@ Modificar el estilo css
 Lo primero es git config --global user.name "maury3a"
 Despues git config --global user.email "mauri3a@gmail.com"
 
-
-
+Despues crear repositorio nuevo en GIthub.com
+y enlazarlo con el local git remote add origin https://github.com/Maury3a/ej1GitHub.git
 
 Microsoft Windows [Versión 6.1.7601]
 Copyright (c) 2009 Microsoft Corporation. Reservados todos los derechos.
