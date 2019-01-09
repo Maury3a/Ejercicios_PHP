@@ -126,21 +126,8 @@ To https://github.com/Maury3a/ej1GitHub.git
 
 
 
-Unimos ramas, nos vamos a master con checkout master, y despus indicamos que rama queremos unir con la que estamos (con merge pruebas)
+Unimos ramas, nos vamos a master con checkout master, y despus indicamos que rama queremos unir con la que estamos (con merge prueba)
 
-D:\ej1GitHub>git merge pruebas
-merge: pruebas - not something we can merge
-
-D:\ej1GitHub>git add .
-
-D:\ej1GitHub>git commint -m "puesto un h1"
-git: 'commint' is not a git command. See 'git --help'.
-
-Did you mean this?
-        commit
-
-D:\ej1GitHub>git commit -m "puesto un h1"
-[master ddccf8a] puesto un h1
- 1 file changed, 1 insertion(+), 1 deletion(-)
 
 D:\ej1GitHub>git merge prueba
+
