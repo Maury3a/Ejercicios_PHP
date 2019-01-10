@@ -43,11 +43,11 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-D:\ej1GitHub>git push -u origin master
+D:\ej1GitHub>git push -u origin master   ->guardar cambios en el master   3º
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/Maury3a/ej1GitHub.git'
 
-D:\ej1GitHub>git push add.
+D:\ej1GitHub>git add. -->se hace antes del push  1º
 error: src refspec refs/heads/master does not match any.
 error: failed to push some refs to 'add.'
 
@@ -59,19 +59,19 @@ D:\ej1GitHub>git add .
 
 D:\ej1GitHub>git diff
 
-D:\ej1GitHub>git commit -m "primera subida"
+D:\ej1GitHub>git commit -m "primera subida" ---> 2º para confirmar los cambios
 [master (root-commit) f9c370e] primera subida
  2 files changed, 13 insertions(+)
  create mode 100644 prueba1.css
  create mode 100644 prueba1.html
 
-D:\ej1GitHub>git diff
+D:\ej1GitHub>git diff 
 
-D:\ej1GitHub>checkout -b prueba
+D:\ej1GitHub>checkout -b prueba  -->Crear rama pruebas
 "checkout" no se reconoce como un comando interno o externo,
 programa o archivo por lotes ejecutable.
 
-D:\ej1GitHub>git push origin master
+D:\ej1GitHub>git push origin master  --->
 fatal: AggregateException encountered.
    Se han producido uno o varios errores.
 Username for 'https://github.com': maury3a
@@ -130,4 +130,9 @@ Unimos ramas, nos vamos a master con checkout master, y despus indicamos que ram
 
 
 D:\ej1GitHub>git merge prueba
+
+
+
+
+git stash  --> copia temporal de los últimos cambios que se le han hecho al archivo (PARA CAMBIOS NO SUBIDOS A INTERNET AUN, SOLO SE HAN HECHO EN LOCAL)
 
