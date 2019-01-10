@@ -43,7 +43,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-D:\ej1GitHub>git push -u origin master   ->guardar cambios en el master   3º
+D:\ej1GitHub>git push origin master   ->guardar cambios en el master   3º
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/Maury3a/ej1GitHub.git'
 
