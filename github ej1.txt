@@ -128,11 +128,15 @@ To https://github.com/Maury3a/ej1GitHub.git
 
 Unimos ramas, nos vamos a master con checkout master, y despus indicamos que rama queremos unir con la que estamos (con merge prueba)
 
+D:\ej1GitHub>checkout master
 
 D:\ej1GitHub>git merge prueba
 
 
 
 
-git stash  --> copia temporal de los últimos cambios que se le han hecho al archivo (PARA CAMBIOS NO SUBIDOS A INTERNET AUN, SOLO SE HAN HECHO EN LOCAL)
+git stash  --> copia temporal de los últimos cambios que se le han hecho al archivo (PARA CAMBIOS NO SUBIDOS A INTERNET AUN, 
+SOLO SE HAN HECHO EN LOCAL)
+
+git stash pop --> Pega el cambio temporal copiado con git stash
 
