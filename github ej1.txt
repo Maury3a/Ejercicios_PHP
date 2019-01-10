@@ -140,3 +140,5 @@ SOLO SE HAN HECHO EN LOCAL)
 
 git stash pop --> Pega el cambio temporal copiado con git stash
 
+git pull origin pruebas ---> nos descargamos los cambios con origen en la rama pruebas
+
